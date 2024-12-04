@@ -3,7 +3,8 @@
 properties:
   resources:
     - resource: Microsoft.WinGet.DSC/WinGetPackage
-      id: pythonPackage
+      id: pythonPackagee
+      
       directives:
         description: Install Python 3.12
         module: Microsoft.WinGet.DSC
